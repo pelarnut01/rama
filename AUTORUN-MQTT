@@ -1,0 +1,10 @@
+open command
+
+crontab -e
+
+enter 1
+
+add code in last line
+
+@reboot sleep 20; node /home/influxdb/Desktop/mqtt/mqttget.js
+
