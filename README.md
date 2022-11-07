@@ -6,9 +6,9 @@ This template demonstrates how to backup grafana and influxdb to new server
 
 **Requirements**
 
-1. node version 12.22.9 or later
-2. influxdb version 2.5
-3. grafana version 9.2.2
+1. Node version 12.22.9 or later
+2. Influxdb version 2.5
+3. Grafana version 9.2.2
 4. Ubuntu 18.04 or later
 
 # 3.Installation
