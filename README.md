@@ -179,7 +179,7 @@ An easy, step-by-step guide to migrate InfluxDB data from legacy (1.x) to new ve
 2.  Restore Influxdb
     Please clone project https://github.com/pelarnut01/rama.git
 
-    2.1 Configuration in file restore.js
+    2.1 Configuration in file restore.py
 
     - **Url** Enter the influxdb IP address and append it with **/api/v2/write**.
     - **Organization** Enter organization name can setting on influxdb.
@@ -188,9 +188,9 @@ An easy, step-by-step guide to migrate InfluxDB data from legacy (1.x) to new ve
 
     **Run command**
 
-        Going to the parent directory of a file restore.js
+        Going to the parent directory of a file restore.py
 
-        $ node restore.js
+        $ python3 restore.py
 
 # 5.Setup MQTT Subscribe
 
